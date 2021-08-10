@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*#3cb149*/ /*##1d8844,#434748*/
+
+body, h1, h2, h3, p, ul, li {padding:0; margin:0;}
+ul, li {list-style: none;}
+a {text-decoration: none;}
+.clear::after {content:""; display: block; clear: both;}
+
+#wrap {width:1200px; margin:0 auto;}
+header {height:100px; width:1200px;}
+.logo {float:left;}
+.logo a {}
+.logo a img {width:200px; height:50px; padding: 0 30px;}
+
+nav {float:right; width:800px; height:90px;}
+.gnb {list-style: none;}
+.gnb li {}
+
+
+
+.gnb li a {color:#333;}
+
+.sub_menu {}
+.sub_menu li {}
+.sub_menu li a {}
+
+#visual {height:300px; width:1200px;}
+.visual_list {}
+.visual_list li {}
+.visual_list li a {}
+.visual_list li a img {}
+.sub_title {}
+
+#content {height:200px;}
+.notice {}
+.notice h3 {}
+.notice h3 a {}
+
+.gallery {}
+.gallery h3 {}
+.gallery h3 a {}
+
+.banner {}
+.banner h3 {}
+.banner h3 a {}
+
+footer {height:100px;}
+.footer_logo {}
+.footer_logo a {}
+.footer_logo a img {}
+.copyright {}
+.copyright span {}
+
+#site {}
+option span {}
